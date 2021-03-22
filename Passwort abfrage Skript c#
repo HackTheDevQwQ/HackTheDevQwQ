@@ -1,0 +1,36 @@
+using System;
+
+namespace Passwortabfrage
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+
+       //Passwort abfrage Skript
+       //das passwort wird bei 'P' gespeichert
+       //Skript by LegendVoss
+
+       char passwort = 'P';
+
+       bool isOK = false;
+
+       do
+       {
+          Console.Write("Passwort: ");
+            passwort = Convert.ToChar(Console.ReadLine());
+            passwort = char.ToUpper(passwort);
+
+             if (passwort == 'P')
+             {
+               isOK = true;
+             }
+
+       } while (false);
+
+            //Ausgangs Text
+         Console.WriteLine("Du hast dich erfolgreich eingeloggt");
+
+    }
+  }
+}
