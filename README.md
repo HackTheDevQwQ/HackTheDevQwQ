@@ -2,7 +2,7 @@
 
 - 👀 I’m interested in coding
 
-- 🌱 I’m currently learning java, c# and hacking websites
+- 🌱 I’m currently learning java, c# and batch
 
 - 💞️ I’m looking to collaborate on well known coder
 
